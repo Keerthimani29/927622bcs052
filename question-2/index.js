@@ -1,0 +1,6 @@
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ4MDY1MTkzLCJpYXQiOjE3NDgwNjQ4OTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6Ijc3NzI1YThjLWQwMmYtNGE1MC04OWFiLTI5ZGI4ZjFhZDJhZSIsInN1YiI6IjkyNzYyMmJjczA1MkBta2NlLmFjLmluIn0sImVtYWlsIjoiOTI3NjIyYmNzMDUyQG1rY2UuYWMuaW4iLCJuYW1lIjoia2VlcnRoaWthIHMiLCJyb2xsTm8iOiI5Mjc2MjJiY3MwNTIiLCJhY2Nlc3NDb2RlIjoid2hlUVV5IiwiY2xpZW50SUQiOiI3NzcyNWE4Yy1kMDJmLTRhNTAtODlhYi0yOWRiOGYxYWQyYWUiLCJjbGllbnRTZWNyZXQiOiJ3SkRUekh3UkFRRnpKSE1OIn0.gKl2ByxIBJf1WmQh5XqfNyEf_3rGOgORFF-tUXmT6Ag';
+axios.get('http://20.244.56.144/evaluation-service/stocks', {
+  headers: {
+    Authorization: `Bearer ${token}`
+  }
+});
